@@ -39,10 +39,7 @@ const PokemonCard = () => {
     }, [selectedPokemon && selectedPokemon.url]);
   
     return (
-        <>
-        
       <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', }}>
-      <div><h1>LALAL</h1></div>
         <Grid container spacing={2} alignItems="center">
           {PokemonList(pokemons, setSelectedPokemon)}
           <Grid item>
@@ -55,9 +52,7 @@ const PokemonCard = () => {
             </Card>
           </Grid>
         </Grid>
-  
       </Container>
-      </>
   
     );
   };
