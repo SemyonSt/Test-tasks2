@@ -30,7 +30,6 @@ const PokemonCard = () => {
               ...prevState,
               ...response.data
             }));
-            console.log(response.data);
           })
           .catch(error => {
             console.error('Ошибка при получении деталей покемона:', error);
@@ -40,7 +39,10 @@ const PokemonCard = () => {
     }, [selectedPokemon && selectedPokemon.url]);
   
     return (
+        <>
+        
       <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', }}>
+      <div><h1>LALAL</h1></div>
         <Grid container spacing={2} alignItems="center">
           {PokemonList(pokemons, setSelectedPokemon)}
           <Grid item>
@@ -55,6 +57,7 @@ const PokemonCard = () => {
         </Grid>
   
       </Container>
+      </>
   
     );
   };

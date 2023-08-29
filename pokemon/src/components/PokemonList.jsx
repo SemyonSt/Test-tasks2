@@ -22,7 +22,6 @@ const PokemonList = (pokemons, setSelectedPokemon) => {
                                 label={pokemon.name}
                             />
                         </Grid>))}
-                    <div>{console.log(pokemons)}</div>
                 </Grid>
             </Box>
         </Grid>
