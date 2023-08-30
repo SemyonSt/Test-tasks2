@@ -1,17 +1,5 @@
 # Покемоны
 
-**Install:**
----
-
-```
-$ git clone git@github.com:SemyonSt/frontend-project-12.git
-
-$ make install
-
-$ sudo npm link
-
-$ make start
-```
 
 Сделать компонент согласно [макету](https://www.figma.com/file/S0l7PXBwTXNWvZ3dHRq5DN/Тестовое-задания-на-вакансию-Frontend-developer?type=design&node-id=2-68&mode=design&t=h6D4iZ4OIcgQPN99-0).
 
